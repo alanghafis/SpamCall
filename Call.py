@@ -144,7 +144,7 @@ def main():
 				print(M+'\tNomor Tidak Valid !')
 				sys.exit()
 			
-			elif '62' in phone[0:2] or '+62' in phone[0:2] or '08' in phone[0:2]:
+			elif '62' in phone[0:2] or '+60' in phone[0:2] or '08' in phone[0:2]:
 				print
 				print(C+'\tTanpa'+W+' +62/62/08'+C+' Langsung'+W+' 812xxxx'+C+' !')
 				sleep(4)
