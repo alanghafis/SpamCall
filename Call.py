@@ -77,7 +77,7 @@ def main():
 			tiks(C+'\t\t'+12*'=')
 			print
 			
-			phone = raw_input(W+'\tNOMOR TARGET ('+H+' Ex :'+C+' 62812xxxx '+W+') : ')
+			phone = raw_input(W+'\tNOMOR TARGET ('+H+' Ex :'+C+' 60123xxxxxxx '+W+') : ')
 			jumlah = input(''+W+'\tJUMLAH SPAM'+W+' ('+H+' Ex :'+C+' 3 '+W+') : ')
 			
 			if jumlah > 3:
@@ -91,9 +91,9 @@ def main():
 				print(M+'\tNomor Tidak Valid !')
 				sys.exit()
 			
-			elif '62' not in phone[0:2]:
+			elif '60' not in phone[0:2]:
 				print
-				print(C+'\tPakai 62'+W+' !')
+				print(C+'\tPakai 60'+W+' !')
 				sleep(2.5)
 				main()
 					
@@ -144,9 +144,9 @@ def main():
 				print(M+'\tNomor Tidak Valid !')
 				sys.exit()
 			
-			elif '62' in phone[0:2] or '+62' in phone[0:2] or '08' in phone[0:2]:
+			elif '60' in phone[0:2] or '+60' in phone[0:2] or '08' in phone[0:2]:
 				print
-				print(C+'\tTanpa'+W+' +62/62/08'+C+' Langsung'+W+' 812xxxx'+C+' !')
+				print(C+'\tTanpa'+W+' +60/60/01'+C+' Langsung'+W+' 123xxxx'+C+' !')
 				sleep(4)
 				main()
 					
@@ -186,7 +186,7 @@ def main():
 			tiks(W+'\t\tSPAM OTP V3')
 			tiks(C+'\t\t'+12*'=')
 			print
-			phone = raw_input(W+'\tNOMOR TARGET ('+H+' Ex :'+C+' 812xxxx '+W+') : ')
+			phone = raw_input(W+'\tNOMOR TARGET ('+H+' Ex :'+C+' 123xxxx '+W+') : ')
 			jumlah = input(''+W+'\tJUMLAH SPAM'+W+' ('+H+' Ex :'+C+' 3 '+W+') : ')
 			
 			if jumlah > 3:
@@ -200,9 +200,9 @@ def main():
 				print(M+'\tNomor Tidak Valid !')
 				sys.exit()
 			
-			elif '62' in phone[0:2] or '+62' in phone[0:2]:
+			elif '60' in phone[0:2] or '+60' in phone[0:2]:
 				print
-				print(C+'\tTanpa'+W+' +62/62'+C+' Langsung'+W+' 0812xxxx'+C+' !')
+				print(C+'\tTanpa'+W+' +60/60'+C+' Langsung'+W+' 0123xxxx'+C+' !')
 				sleep(4)
 				main()
 					
